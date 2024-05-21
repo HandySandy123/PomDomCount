@@ -1,0 +1,55 @@
+body {
+    background-image: url("lofigirl.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+:is(h1, h2){
+    font-family: Roboto;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    border: 1px solid black;
+    background: rebeccapurple;
+}
+
+#increment-btn {
+    background: rgb(53, 92, 220);
+}
+
+
+#save-btn {
+    background: rgb(33, 178, 180);
+}
+
+#main {
+    margin: auto;
+    max-width: fit-content;
+}
+
